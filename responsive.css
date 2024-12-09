@@ -1,0 +1,106 @@
+@media (max-width: 576px) {
+  /* *************** Navbar ************* */
+  nav .nav-menus .nav-button {
+    display: none;
+  }
+
+  nav ul li {
+    width: auto;
+    font-size: 0.7rem;
+  }
+
+  /* *************** Hero section ************* */
+  .hero-section h1 {
+    font-size: 1.3rem;
+  }
+
+  /* *************** About us ************* */
+  .about-us {
+    height: auto;
+    padding: 4rem 0;
+  }
+
+  .about-details {
+    width: 90%;
+    text-align: justify;
+  }
+
+  .about-details h2 {
+    text-align: center;
+  }
+
+  /* *************** Gallery section ************* */
+  .gallery-section {
+    height: auto;
+    padding: 4rem 2rem;
+  }
+
+  .gallery-section h1 {
+    padding: 2rem 0;
+  }
+
+  .gallery-container {
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
+  }
+
+  /* *************** Menus section ************* */
+  .menus-section {
+    height: auto;
+    padding: 3rem 1rem;
+  }
+
+  .menus-container {
+    grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+    gap: 1rem;
+  }
+
+  .menus-container h5 {
+    width: 100%;
+  }
+
+  /* *************** Form section ************* */
+  .reserve-section .first3inputs {
+    width: 80vw;
+  }
+}
+
+@media (max-width: 992px) {
+  /* ****************** Navbr ****************** */
+  nav .nav-menus {
+    gap: 1rem;
+  }
+
+  /* ****************** About us ****************** */
+  .about-us {
+    height: auto;
+  }
+
+  .about-details {
+    width: 75%;
+    padding: 4rem 0;
+  }
+
+  .about-details p {
+    text-align: justify;
+  }
+
+  /* ****************** Gallery ****************** */
+  .gallery-section {
+    height: auto;
+    padding: 4rem 5rem;
+  }
+
+  .gallery-section h1 {
+    padding: 2rem 0;
+  }
+
+  /* ****************** Menus ****************** */
+  .menus-container {
+    grid-template-columns: repeat(auto-fit, minmax(22%, 1fr));
+  }
+
+  /* ****************** Form ****************** */
+  .reserve-section .first3inputs {
+    width: 50vw;
+  }
+}
